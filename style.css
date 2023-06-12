@@ -7,7 +7,8 @@ padding: 50px;
 text-align: center;
 background: rgb(247, 227, 10);
 color: #087e3df3;
-font-size: 20px;
+font-size: 60px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button {
@@ -15,11 +16,14 @@ button {
     border-radius: 10px;
     color: rgb(247, 227, 10);
     cursor: pointer;
-    font-size: 8px;
+    font-size: 30px;
     line-height: 20px;
     max-width: 300px;
     padding: 20px 30px;
     text-align: center;
     margin-top: 5px;   
 
+}
+p {
+    font-size: 20px;
 }
