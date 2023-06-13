@@ -18,7 +18,7 @@
         <div class="Timer">
             Time: 60
          </div>
-    <section id="the.question.container">
+    <section id="the.question.container" class="hide">
          <h1 class="question">Question!</h1>
          <div class="answers">
             <button class="button">1</button>
@@ -26,31 +26,21 @@
             <button class="button">3</button>
             <button class="button">4</button>
          </div>
-         <h2 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         <h2 id="check-answer" class="correct-incorrect hide"></h2>
+            <button id="next" class="next hide">Next>></button> 
+         </div>
+    </section>
+    <section id="score-container" class="hide">
+        <form id="submit-form">
+            <h3 id="your-score"></h3>
+            <label id="initials">To Save Score Inital Here!</label>
+            <input type="text-box" maxlength="3" placeholder="your initials" />
+            <button id="save">Save</button>
+        </form>      
+    </section>
+    <section>
+        <button id="restart">Start Over</button>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
